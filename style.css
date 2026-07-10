@@ -39,13 +39,7 @@ ul {
   color: #fff;
   border-radius: 10px;
   font-weight: 600;
-  transition: 0.3s;
   font-size: 18px;
-}
-
-.btn:hover {
-  background: #ff8b32;
-  transform: translateY(-3px);
 }
 
 /*NAVBAR */
@@ -120,3 +114,52 @@ header {
   color: #d8d8d8;
   margin-bottom: 350px;
 }
+
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 45px;
+}
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+
+.speakers-card {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.speakers-card img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.track {
+  display: inline-block;
+  margin: 25px;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: blue;
+}
+
+.speakers-card h3 {
+  margin: 0 25px;
+  font-size: 26px;
+}
+
+.speakers-card p {
+  margin: 15px 25px 30px;
+  color: #bbb;
+}
+
+
