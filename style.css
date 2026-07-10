@@ -40,6 +40,7 @@ ul {
   border-radius: 10px;
   font-weight: 600;
   transition: 0.3s;
+  font-size: 18px;
 }
 
 .btn:hover {
@@ -83,4 +84,39 @@ header {
 .nav-links a {
   color: rgb(85, 70, 70);
   font-weight: 500;
+}
+
+.hero {
+  margin-top: 100px;
+  height: 871px;
+  background: url(./assets/banner.jpg) center center/cover;
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  width: 750px;
+}
+
+.hero h1 {
+  font-size: 72px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  color: #d8d8d8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #d8d8d8;
+  margin-bottom: 350px;
 }
