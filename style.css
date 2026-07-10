@@ -89,7 +89,7 @@ header {
 .hero {
   margin-top: 100px;
   height: 871px;
-  background: url(./assets/banner.jpg) center center/cover;
+  background: url(assets/banner.jpg) center center/cover;
   position: relative;
   width: 100%;
 }
