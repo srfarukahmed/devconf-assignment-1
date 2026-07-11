@@ -1,0 +1,1 @@
+Create a attractive "Why Attend DevConf 2026" section using only HTML5 and CSS3 only which matches a "Developer Conference" website. Use a white background, a heading, a short description, and four feature cards highlighting World-Class Speakers, Networking, Hands-on Workshops, and Career Opportunities.
