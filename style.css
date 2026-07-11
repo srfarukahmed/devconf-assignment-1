@@ -250,8 +250,11 @@ section h2 {
   margin-bottom: 2px;
   color: black;
 }
+.active .price h2 {
+  color: white;
+}
 
-.price-act h2 {
+/* .price-act h2 {
   font-size: 60px;
   font-weight: 550;
   line-height: 1;
@@ -265,7 +268,7 @@ section h2 {
   font-size: 15px;
   color: #6b7280;
   margin-top: -2px;
-}
+} */
 
 .active .price span {
   color: #6f7986;
