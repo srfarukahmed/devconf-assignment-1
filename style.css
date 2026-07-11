@@ -34,7 +34,7 @@ ul {
 
 .btn {
   display: inline-block;
-  padding: 14px 30px;
+  padding: 14px 45px;
   background: #2721d6e3;
   color: #fff;
   border-radius: 10px;
@@ -43,7 +43,7 @@ ul {
   margin-top: -8px;
 }
 
-.navbar btn{
+.navbar btn {
   margin-top: -100px;
 }
 /*Navbar */
@@ -121,7 +121,6 @@ header {
   margin-bottom: 350px;
 }
 
-
 /* Speakers */
 
 section {
@@ -151,7 +150,7 @@ section h2 {
   object-fit: cover;
 }
 
-.speakers h2{
+.speakers h2 {
   margin-top: -65px;
   color: black;
 }
@@ -164,20 +163,20 @@ section h2 {
   font-size: 14px;
   font-weight: 600;
   color: blue;
-  margin-left: 9px;
+  margin-left: 11px;
   margin-bottom: 10px;
 }
 
 .speakers-card h3 {
   margin: 0 25px;
   font-size: 26px;
+  color: black;
 }
 
 .speakers-card p {
   margin: 15px 25px 30px;
-  color: #bbb;
+  color: #777575;
 }
-
 
 /* Pricing */
 
@@ -186,7 +185,7 @@ section h2 {
   padding: 70px 20px;
 }
 
-.pricing h1{
+.pricing h1 {
   margin-top: -50px;
 }
 .heading {
@@ -245,14 +244,23 @@ section h2 {
 
 .price h2 {
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 550;
   line-height: 1;
   text-align: left;
   margin-bottom: 2px;
+  color: black;
 }
 
+.price-act h2 {
+  font-size: 60px;
+  font-weight: 550;
+  line-height: 1;
+  text-align: left;
+  margin-bottom: 2px;
+  color: white;
+}
 
-.price span {
+.price-act span {
   display: block;
   font-size: 15px;
   color: #6b7280;
@@ -260,7 +268,7 @@ section h2 {
 }
 
 .active .price span {
-  color: #d7dde5;
+  color: #6f7986;
 }
 
 hr {
@@ -293,12 +301,12 @@ hr {
 }
 
 .pricing ul li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: #2563eb;
-    font-size: 18px;
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #2563eb;
+  font-size: 18px;
 }
 
 button {
@@ -314,7 +322,6 @@ button {
   cursor: pointer;
   transition: 0.3s;
 }
-
 
 .active button {
   background: #3366ff;
@@ -448,11 +455,6 @@ footer {
   align-items: center;
   color: #fff;
   text-decoration: none;
-  transition: 0.3s;
-}
-
-.socials a:hover {
-  background: #2563eb;
 }
 
 .terms {
@@ -464,8 +466,4 @@ footer {
   color: #b5b5b5;
   text-decoration: none;
   font-size: 15px;
-}
-
-.terms a:hover {
-  color: #fff;
 }
