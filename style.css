@@ -40,8 +40,12 @@ ul {
   border-radius: 10px;
   font-weight: 600;
   font-size: 18px;
+  margin-top: -8px;
 }
 
+.navbar btn{
+  margin-top: -100px;
+}
 /*Navbar */
 
 header {
@@ -56,12 +60,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   width: 90%;
   max-width: 1200px;
-
   margin: auto;
-
   padding: 30px 0;
 }
 
@@ -76,8 +77,8 @@ header {
 }
 
 .nav-links a {
-  color: rgb(85, 70, 70);
-  font-weight: 500;
+  color: rgb(124, 120, 120);
+  font-weight: 550;
 }
 
 /* Hero Section */
@@ -109,6 +110,9 @@ header {
   line-height: 1.1;
   margin-bottom: 30px;
   color: #d8d8d8;
+}
+.hero h1 span {
+  font-style: italic;
 }
 
 .hero p {
@@ -160,6 +164,8 @@ section h2 {
   font-size: 14px;
   font-weight: 600;
   color: blue;
+  margin-left: 9px;
+  margin-bottom: 10px;
 }
 
 .speakers-card h3 {
@@ -190,7 +196,7 @@ section h2 {
 
 .heading h1 {
   font-size: 70px;
-  font-weight: 800;
+  font-weight: 600;
   color: black;
   margin-bottom: 14px;
 }
@@ -245,6 +251,7 @@ section h2 {
   margin-bottom: 2px;
 }
 
+
 .price span {
   display: block;
   font-size: 15px;
@@ -285,13 +292,13 @@ hr {
   color: #d7dde5;
 }
 
-ul li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #2563eb;
-  font-size: 18px;
+.pricing ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #2563eb;
+    font-size: 18px;
 }
 
 button {
@@ -307,6 +314,7 @@ button {
   cursor: pointer;
   transition: 0.3s;
 }
+
 
 .active button {
   background: #3366ff;
